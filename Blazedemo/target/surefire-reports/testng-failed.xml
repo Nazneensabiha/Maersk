@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.qa.blazedemo.test.FlightPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.blazedemo.test.FlightPageTest -->
+      <class name="com.qa.blazedemo.test.HomePageTest">
+        <methods>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.blazedemo.test.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
